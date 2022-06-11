@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<profile category="EXPERT" xmlns="http://www.sagemcom.com/amm/hes2015/types/profile/v1/">
+    <dataModel name="EVN_Data_Model_V1" version="2117"/>
+    <transactions count="1">
+        <transaction id="1" stopOnFailure="false">
+            <dlms operation="ACCESS" association="1">
+                <getm order="1" logicalName="0;0;1;0;0;255" attribute="2" classId="8"/>
+            </dlms>
+        </transaction>
+    </transactions>
+    <name>get-clock</name>
+    <restrictions>
+        <restriction type="VENDOR" value="SAG"/>
+        <restriction type="CHANNEL" value="2"/>
+    </restrictions>
+</profile>

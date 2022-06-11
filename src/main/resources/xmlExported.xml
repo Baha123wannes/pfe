@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <profil>
+        <already_used>true</already_used>
+        <category>test</category>
+        <dataModel>
+            <data_name>datatest</data_name>
+            <dateCreation/>
+            <id>1</id>
+            <name>datatest</name>
+            <user_name>baha</user_name>
+            <version>11</version>
+        </dataModel>
+        <description>test</description>
+        <id>1</id>
+        <name>profiltest</name>
+    </profil>
+</root>
